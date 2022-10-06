@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-image: url("../images/landing.jpg");
+}
+.landing-container img {
+  width: 100%;
+  object-fit: fill;
+  filter: brightness(40%);
+}
+.landing-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.landing-text h2 {
+  color: rgb(245, 135, 44);
+  font-size: 40px;
+}
+
+/* UPDATES CONTAINER */
+.sec2-text-div {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  background-color: rgba(245, 135, 44, 0.7);
+  text-align: center;
+  padding-top: 25px;
+}
+
+.updates-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.update-card {
+  height: 350px;
+  margin: 50px 10px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+}
+.update-img {
+  height: 350px;
+  width: 275px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.update-text {
+  height: 90px;
+  width: 275px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 1133px;
+  background: rgba(0, 0, 0, 0.6);
+  color: rgb(245, 135, 44);
+  transition: 0.5s;
+}
+.update-text h1 {
+  margin: 5px;
+  font-size: 22px;
+}
+.update-text p {
+  margin: 5px;
+  font-size: 15px;
+  visibility: hidden;
+  opacity: 0;
+}
+.update-card:hover {
+  cursor: pointer;
+}
+.update-card:hover .update-text {
+  height: 145px;
+  top: 1080px;
+  background-color: rgb(245, 135, 44);
+}
+.update-card:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+.update-card:hover .update-text {
+  color: white;
+}
+.update-card:hover .update-img {
+  transform: scale(1.1) rotate(-3deg);
+}
