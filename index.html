@@ -5,72 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
+    <title>NCHD - Web Engineering</title>
   </head>
   <body>
-    <section>
+    <section class="sec1">
       <div class="landing-container">
         <img
           class="landing-picture"
           src="images/landing.jpg"
           alt="landing page picture"
         />
+
+        <div class="header">
+          <div class="Image">
+            <img src="images/logo.png" alt="NCHD" />
+          </div>
+          <div class="headele" id="headele">
+            <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+            <ul class="headlist">
+              <li class="ele">Home</li>
+              <li class="ele">About Us</li>
+              <li class="ele">
+                <select id="programs">
+                  <option selected hidden value="">Programs</option>
+                  <option class="prog-options" value="">Health</option>
+                  <option class="prog-options" value="">Education</option>
+                  <option class="prog-options" value="">
+                    Volunteerism for Community Dev.
+                  </option>
+                  <option class="prog-options" value="">
+                    Capacity Development
+                  </option>
+                  <option class="prog-options" value="">
+                    Community technology Learing Centers
+                  </option>
+                  <option class="prog-options" value="">
+                    Global Resource Mobilization
+                  </option>
+                </select>
+              </li>
+              <li class="ele">
+                <select id="programs" style="width: 105px">
+                  <option selected hidden value="">News Room</option>
+                  <option class="prog-options" value="">Media</option>
+                  <option class="prog-options" value="">News Archive</option>
+                </select>
+              </li>
+              <li class="ele">Financials</li>
+              <li class="ele">Partners</li>
+              <li class="ele">
+                <select id="programs" style="width: 110px">
+                  <option selected hidden value="">Opportunities</option>
+                  <option class="prog-options" value="">Media</option>
+                  <option class="prog-options" value="">News Archive</option>
+                </select>
+              </li>
+              <li class="ele">FAQs</li>
+              <li class="ele">Contact Us</li>
+            </ul>
+          </div>
+          <div class="forsearchbar">
+            <input type="search" class="search" />
+          </div>
+        </div>
+        <div class="latest-news">
+          <div class="text">
+            <h1>Latest News</h1>
+          </div>
+
+          <div class="news">
+            <div class="slider">
+              <p class="news-text">
+                was received by the DG(LAC) and had the honor to call on
+                Honorable Chairman NCHD. During his visit, he was briefed about
+                NCHD and its social development services in the field of
+                Education, School Health, Literacy and Skill development. Mr.
+                Habibullah Khan take over the look after charge of Director
+                General NCHD.
+              </p>
+              <p class="news-text">
+                was received by the DG(LAC) and had the honor to call on
+                Honorable Chairman NCHD. During his visit, he was briefed about
+                NCHD and its social development services in the field of
+                Education, School Health, Literacy and Skill development. Mr.
+                Habibullah Khan take over the look after charge of Director
+                General NCHD.
+              </p>
+            </div>
+          </div>
+        </div>
         <div class="landing-text">
           <h2>National Commission for Human Development</h2>
-          <p>
+          <p style="text-align: center; color: white; font-size: larger">
             Transform lives by improving access to basic education and
             healthcare
           </p>
         </div>
+        <div></div>
       </div>
     </section>
-    <!-- <section>
-      <div>
-        <div class="sec2-text-div">
-          <h1 style="font-size: 30px; color: white">Latest Updates</h1>
-        </div>
-        <div class="updates-container">
-          <div class="update-card">
-            <img class="update-img" src="images/u1.jpg" alt="update picture" />
-            <div class="update-text">
-              <h1>LEAPS-NCHD Special Project</h1>
-              <p>
-                LEAPS, a youth-led early childhood care and education
-                intervention in Sindh, Pakistan
-              </p>
-            </div>
-          </div>
-          <div class="update-card">
-            <img class="update-img" src="images/u2.jpg" alt="update picture" />
-            <div class="update-text">
-              <h1>CLC Inauguration</h1>
-              <p>
-                NCHD launches community learning center. Chairman NCHD
-                inaugurated the CLC
-              </p>
-            </div>
-          </div>
-          <div class="update-card">
-            <img class="update-img" src="images/u3.jpg" alt="update picture" />
-            <div class="update-text">
-              <h1>Details of Madaris Schools</h1>
-              <p>BalochistanKPKPunjabSindh...</p>
-            </div>
-          </div>
-          <div class="update-card">
-            <img class="update-img" src="images/u4.jpg" alt="update picture" />
-            <div class="update-text">
-              <h1>LoU signing ceremony between NCHD and AKU.</h1>
-              <p>
-                The objective of signing of letter is to provide of ECE in 100
-                Feeder Schools in Sindh
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <section>
+
+    <section style="padding-left: 40px; padding-right: 40px">
       <div class="sec2-text-div">
         <h1 style="font-size: 30px; color: white">Latest Updates</h1>
       </div>
@@ -114,6 +149,214 @@
         </div>
       </div>
     </section>
-    
+    <section class="sec3">
+      <div class="sec3-container">
+        <div class="sec3-heading">
+          <h1 style="font-size: 30px; color: white">HUMAN DEVELOPMENT</h1>
+        </div>
+        <div class="sec3-content">
+          <div class="video-div">
+            <iframe
+              src="https://www.youtube.com/embed/HwgZQ1DqG3w"
+              frameborder="0"
+              width="550px"
+              height="375px"
+            ></iframe>
+          </div>
+          <div class="sec3-div2">
+            <div class="sec3-text">
+              <h2>What is Human Development?</h2>
+              <p>
+                National Commission for Human Development is a not for profit
+                organization with the mission to transform lives by improving
+                access to basic education and healthcare in the country’s
+                poorest communities. NCHD is the leading agency fighting
+                illiteracy in 124 districts of Pakistan and helping people to
+                find routes out of ignorance....
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="rep-container">
+        <div class="report">
+          <div class="report-title"><h1>Annual Report 2020</h1></div>
+          <img src="images/report.jpg" alt="report image" />
+        </div>
+        <div class="latest-news-div">
+          <span class="latest-news-header">News Feed</span>
+          <div class="news-updates">
+            <ul>
+              <li>
+                NCHD established National Literacy Resource Center in
+                collaboration with UNESCO. The objective of NLRC is to conduct
+                research on various eduational indicators and to dig out the
+                ways to improve the rate of literacy in Pakisan
+              </li>
+              <li>
+                NCHD has launched a book club with a clear intention to
+                incorporate and rejuvinate the habits of reading among the
+                learned class mostly over powerd by the technologicall
+                inventions
+              </li>
+              <li>
+                The NCHD book club was officially inaugurated by the Honorable
+                Chairman NCHD Col.(R.) Dr. Amirullah Marwat on September 22,
+                2022
+              </li>
+              <li>
+                September 21, 2022, NCHD Literacy Department has produced video
+                lessons of the literacy Syllabus as per approved 2007 curriculum
+                of the Govt. of Pakistan as a guideline for teaching of literacy
+                professionals, Field Officer, Local Area Supervisors and
+                illiterate learners in collaboration with UNESCO
+              </li>
+              <li>
+                The Worthy Chairman, NCHD graced the occasion and inaugurated
+                the lessons for Social Media for world wide online access at the
+                NCHD Head Office.
+              </li>
+              <li>
+                The online Literacy course is expected to be used for the recap
+                of lesson learnt by 4.3 Million Neo-literates of NCHD in the
+                country
+              </li>
+              <li>
+                The Honorable Parliamentary Secretary for Ministry of Federal
+                Education and Professional Training Ms. Zeb Jaffar Paid a
+                courtesy visit to the National Commission for Human Development
+              </li>
+              <li>
+                She was briefed about the NCHD work in the recent flash floods
+                and informed Ms. Zeb Jaffar about NCHD rescue and relief
+                services rendered to the flood victims in 65 districts of
+                Pakistan.
+              </li>
+              <li>
+                Mr. Sam Wilson (ED TECH & DISTANCE LEARNING STRATEGIST, ODI
+                FELLOW), paid a courtesy visit to the National Commission for
+                Human Development dated september 14, 2022
+              </li>
+              <li>
+                He commended the efforts of NCHD in improving the Human
+                Development Indicators in Pakistan and appreciated the Rapid
+                Response by NCHD in the recent flash floods through providing
+                rescue and relief services in all the affected districts of
+                Pakistan because of its geographical presence and trained Human
+                Resource.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery -->
+    <section class="gallerySection">
+      <div>
+        <div class="caption">
+          <h1 style="font-size: 30px; color: white">Photo Gallery</h1>
+        </div>
+        <div class="photoGallery">
+          <img
+            class="photoGalleryImage"
+            src="./images/pg1.jpg"
+            alt="community"
+          />
+          <img
+            class="photoGalleryImage"
+            src="./images/pg2.jpg"
+            alt="community"
+          />
+          <img
+            class="photoGalleryImage"
+            src="./images/pg3.jpg"
+            alt="community"
+          />
+          <img
+            class="photoGalleryImage"
+            src="./images/pg4.jpg"
+            alt="community"
+          />
+          <img
+            class="photoGalleryImage"
+            src="./images/pg5.jpg"
+            alt="community"
+          />
+          <img
+            class="photoGalleryImage"
+            src="./images/pg6.jpg"
+            alt="community"
+          />
+          <img
+            class="photoGalleryImage"
+            src="./images/pg7.jpg"
+            alt="community"
+          />
+          <img
+            class="photoGalleryImage"
+            src="./images/pg8.jpg"
+            alt="community"
+          />
+          <img
+            class="photoGalleryImage"
+            src="./images/pg9.jpg"
+            alt="community"
+          />
+          <img
+            class="photoGalleryImage"
+            src="./images/pg10.jpg"
+            alt="community"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="second_last">
+      <div class="sl-img">
+        <img src="images/c.png" alt="picture" />
+      </div>
+      <div class="sl-img">
+        <img src="images/d.png" alt="picture" />
+      </div>
+      <div class="sl-img">
+        <img src="images/e.png" alt="picture" />
+      </div>
+      <div class="sl-img">
+        <img src="images/f.png" alt="picture" />
+      </div>
+    </section>
+    <section class="sec4">
+      <div class="sec4-container">
+        <div class="sec4-data">
+          <div class="member-data">
+            <img src="images/1.jpg" alt="member 1" />
+            <p>
+              His Excellency <b>Mr. Shafqat Mahmood</b>, Federal Minister for
+              Ministry of Federal Education and Professional Training
+            </p>
+          </div>
+          <div class="member-data">
+            <img src="images/2.jpg" alt="member 2" />
+            <p>
+              Honorable <b>Col. (R). Dr. Amirullah Marwat</b> Chairman National
+              Commission for Human Development
+            </p>
+          </div>
+          <div class="member-data">
+            <img src="images/3.jpg" alt="member 3" />
+            <p><b>Mr. Hassan Baig</b> Director General NCHD</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec5">
+      <div class="footer">
+        <h3>Copyright &#169;2022 NCHD. All right reserved.</h3>
+      </div>
+    </section>
   </body>
 </html>
